@@ -1,366 +1,7 @@
-const data_channels = [{
-  'name': "ESPN",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://edge-live11-hr.cvattv.com.ar/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd",
-  'type': "drm_key",
-  'key': {
-    'f4c9f97e2a36feab0e5077f2b44cbc4e': "1743cd03dfe3736b2c95da91a783af38"
-  }
-}, {
-  'name': "SSC 1",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://ssc1-ak.akamaized.net/out/v1/c696e4819b55414388a1a487e8a45ca1/index.mpd",
-  'type': "drm_key",
-  'key': {
-    'd84c325f36814f39bbe59080272b10c3': "550727de4c96ef1ecff874905493580f"
-  }
-}, {
-  'name': "SSC 2",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://ssc2-ak.akamaized.net/out/v1/a16db2ec338a445a82d9c541cc9293f9/index.mpd",
-  'type': "drm_key",
-  'key': {
-    '8bcfc55359e24bd7ad1c5560a96ddd3c': "b5dcf721ab522af92a9d3bf0bd55b596"
-  }
-}, {
-  'name': "SSC 3",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://ssc3-ak.akamaized.net/out/v1/42e86125555242aaa2a12056832e7814/index.mpd",
-  'type': 'drm_key',
-  'key': {
-    '7de5dd08ad8041d586c2f16ccc9490a1': "5e1503f3398b34f5099933fedab847ef"
-  }
-}, {
-  'name': "SSC 4",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://ssc4-ak.akamaized.net/out/v1/5267ea5772874b0db24559d643eaad93/index.mpd",
-  'type': "drm_key",
-  'key': {
-    '5c672f6b85a94638872d0214f7806ed4': "bf8756fbb866ee2d5c701c2289dd8de3"
-  }
-}, {
-  'name': "SSC 5",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://ssc5-ak.akamaized.net/out/v1/99289eac5a7b4319905da595afbd792b/index.mpd",
-  'type': "drm_key",
-  'key': {
-    'c88b512b17ab4f6cb09eb0ff4a1056ed': 'adc08ee1c20a734972a55c9aebbd1888'
-  }
-}, {
-  'name': "SSC EXTRA 1",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://ssc-extra1-ak.akamaized.net/out/v1/647c58693f1d46af92bd7e69f17912cb/index.mpd",
-  'type': "drm_key",
-  'key': {
-    'ecbc9e6fe6b145efb6658fb5cf7427f8': "03c17e28911f71221acbc0b11f900401"
-  }
-}, {
-  'name': "SSC EXTRA 2",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://ssc-extra2-ak.akamaized.net/out/v1/8b70de2b70d447ba8a7450ba90926a2d/index.mpd",
-  'type': "drm_key",
-  'key': {
-    '4d89249bd4ca4ebc9e70443265f9507d': "cf074ffd2646c9c2f8513b47fa57bc30"
-  }
-}, {
-  'name': "SSC EXTRA 3",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://ssc-extra3-on-prem-cw-ak.akamaized.net/out/v1/9d373d000ab64078b131f9d4c18e3502/index.mpd",
-  'type': "drm_key",
-  'key': {
-    '9b05d5f11a0b422d86354c34782ed2bc': "82aef319b4cfc71fd48cdd495ee79786"
-  }
-}, {
-  'name': "SSC NEWS",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://ssc-news-live-ak.akamaized.net/out/v1/ef466f43623c4bbaa3f905b566ec35ea/index.mpd",
-  'type': "drm_key",
-  'key': {
-    '3d04975236a44f62857d181597705ee6': "362133e9cb13189ad4fe095ced216f60"
-  }
-}, {
-  'name': "UNBEATEN",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-044/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
-  }
-}, {
-  'name': "PLAY SPORTS 1",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-051/stream.mpd",
-  'type': 'drm_key',
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "PLAY SPORTS 2",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-052/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "PLAY SPORTS 3",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-053/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
-  }
-}, {
-  'name': "NFL",
-  'category': "KAWAGUCHI MAEDA",
-  'link': 'https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-023/stream.mpd',
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "MLB",
-  'category': "KAWAGUCHI MAEDA",
-  'link': 'https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-026/stream.mpd',
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "NBA TV",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-035/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "REDBULL TV",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-036/stream.mpd",
-  'type': 'drm_key',
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "MILAN TV",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-025/stream.mpd",
-  'type': 'drm_key',
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "DAZN F1",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-016/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "DAZN 1 DE",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-017/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "DAZN 2 DE",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-018/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "DAZN 1 ES",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-037/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
-  }
-}, {
-  'name': "DAZN 2 ES",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-038/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "INTER TV",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-033/stream.mpd",
-  'type': 'drm_key',
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "DAZN LA LIGA",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-043/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "CANAL+ LIGUE 1",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-046/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "SPORTDIGITAL",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-022/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "ZONA DAZN",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-024/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "ELEVEN 1 PT",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-054/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "ELEVEN 2 PT",
-  'category': "KAWAGUCHI MAEDA",
-  'link': 'https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-055/stream.mpd',
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
-  }
-}, {
-  'name': "ELEVEN 3 PT",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-056/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "ELEVEN 4 PT",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-057/stream.mpd",
-  'type': 'drm_key',
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
-  }
-}, {
-  'name': "ELEVEN 5 PT",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-058/stream.mpd",
-  'type': 'drm_key',
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "ELEVEN 6 PT",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-059/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "DAZN ELEVEN PRO LEAGUE 1",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-050/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "EUROSPORT 1 ESP",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-031/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "EUROSPORT 2 ESP",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-032/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
-  }
-}, {
-  'name': "EUROSPORT 1 DE",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-027/stream.mpd",
-  'type': 'drm_key',
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "EUROSPORT 2 DE",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-028/stream.mpd",
-  'type': "drm_key",
-  'key': {
-    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
-  }
-}, {
-  'name': "SKY CINEMA ACTION",
-  'category': "KAWAGUCHI MAEDA",
-  'link': 'https://linear017-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skycinemaaction)/manifest_mob.mpd',
-  'type': "drm_key",
-  'key': {
-    '0003d8b3ca2a42568a0e97db51b7ab8f': '10d2d8c97c55c1c6ece54d3f89eaa48e'
-  }
-}, {
-  'name': "SKY SPORTS CRICKET",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://linear003-gb-dash1-prd-cf.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skysportscricket)/manifest_sd.mpd",
-  'type': "drm_key",
-  'key': {
-    '0003f2a72d21efd159d45a3a74decd84': "df0ec40586d641f3d4728ab5fd62adc3"
-  }
-}, {
-  'name': "SKY SPORTS F1",
-  'category': "KAWAGUCHI MAEDA",
-  'link': 'https://linear004-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_hd/Live/channel(sportsf150)/manifest_hd.mpd',
-  'type': "drm_key",
-  'key': {
-    '0003e68c20290ea35eec1e3bceafa5b5': "bc799e40dd3e4e3257d746ebc036c992"
-  }
-}, {
-  'name': "SKY SPORTS MIX",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://linear032-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_hd/Live/channel(sportsmix50)/manifest_hd.mpd",
-  'type': "drm_key",
-  'key': {
-    '0003a6c61c2b2f7f0a9d760ac83c06d8': '7305fa96d356316f2d544bfc78a6922c'
-  }
-}, {
-  'name': "SKY SPORTS GOLF",
-  'category': "KAWAGUCHI MAEDA",
-  'link': "https://linear006-gb-dash1-prd-cf.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skysportsgolf)/manifest_sd.mpd",
-  'type': "drm_key",
-  'key': {
-    '0003276bbe0b7f5c9c05ec201bddf545': 'a3546a8bd8d03e6f3ca48629ea45ebb8'
-  }
-}, {
+const data_channels = [
+{
   'name': "BEIN SPORTS 1 THAILAND",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0001/DASH/S0001.mpd",
   'type': "drm_key",
   'key': {
@@ -368,23 +9,415 @@ const data_channels = [{
   }
 }, {
   'name': "BEIN SPORTS 2 THAILAND",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0002/DASH/S0002.mpd",
   'type': "drm_key",
   'key': {
     '30c11587a1686b72f115f34b0bf1c383': "1e3a6af2408cdd78347b722728560c3b"
   }
-}, {
+},{
   'name': "BEIN SPORTS 3 THAILAND",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0003/DASH/S0003.mpd",
   'type': "drm_key",
   'key': {
     'aa724943787320593f5563048c90032d': "a039276254f53769b040199a4eca8c2c"
   }
+},{
+  'name': "BEIN SPORTS 4 THAILAND",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0003/DASH/S0004.mpd",
+  'type': "drm_key",
+  'key': {
+    'cb419fa5f5498e2c6cbc39363248ddd7': "b5853b51f2060025a822e62973154556"
+  }
+},{
+  'name': "BEIN SPORTS 5 THAILAND",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0003/DASH/S0005.mpd",
+  'type': "drm_key",
+  'key': {
+    '3a165f923cd49e616f173fc6c341cc56': "4cb96186d69f1a63c40218812a6f6910"
+  }
+},{
+  'name': "BEIN SPORTS 6 THAILAND",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0003/DASH/S0006.mpd",
+  'type': "drm_key",
+  'key': {
+    'ceac4607562049abb9d1b0309d9cd6f3': "d396d277a364fab00d0193d25b700847"
+  }
+},{
+  'name': "BEIN SPORTS 7 THAILAND",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0003/DASH/S0007.mpd",
+  'type': "drm_key",
+  'key': {
+    '94a28a75b3891e92a97efbe76f941095': "7b39cd0e318ee481b98c36a125c540fb"
+  }
+},{
+  'name': "ESPN",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://edge-live11-hr.cvattv.com.ar/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd",
+  'type': "drm_key",
+  'key': {
+    'f4c9f97e2a36feab0e5077f2b44cbc4e': "1743cd03dfe3736b2c95da91a783af38"
+  }
+}, {
+  'name': "SSC 1",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://ssc1-ak.akamaized.net/out/v1/c696e4819b55414388a1a487e8a45ca1/index.mpd",
+  'type': "drm_key",
+  'key': {
+    'd84c325f36814f39bbe59080272b10c3': "550727de4c96ef1ecff874905493580f"
+  }
+}, {
+  'name': "SSC 2",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://ssc2-ak.akamaized.net/out/v1/a16db2ec338a445a82d9c541cc9293f9/index.mpd",
+  'type': "drm_key",
+  'key': {
+    '8bcfc55359e24bd7ad1c5560a96ddd3c': "b5dcf721ab522af92a9d3bf0bd55b596"
+  }
+}, {
+  'name': "SSC 3",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://ssc3-ak.akamaized.net/out/v1/42e86125555242aaa2a12056832e7814/index.mpd",
+  'type': 'drm_key',
+  'key': {
+    '7de5dd08ad8041d586c2f16ccc9490a1': "5e1503f3398b34f5099933fedab847ef"
+  }
+}, {
+  'name': "SSC 4",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://ssc4-ak.akamaized.net/out/v1/5267ea5772874b0db24559d643eaad93/index.mpd",
+  'type': "drm_key",
+  'key': {
+    '5c672f6b85a94638872d0214f7806ed4': "bf8756fbb866ee2d5c701c2289dd8de3"
+  }
+}, {
+  'name': "SSC 5",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://ssc5-ak.akamaized.net/out/v1/99289eac5a7b4319905da595afbd792b/index.mpd",
+  'type': "drm_key",
+  'key': {
+    'c88b512b17ab4f6cb09eb0ff4a1056ed': 'adc08ee1c20a734972a55c9aebbd1888'
+  }
+}, {
+  'name': "SSC EXTRA 1",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://ssc-extra1-ak.akamaized.net/out/v1/647c58693f1d46af92bd7e69f17912cb/index.mpd",
+  'type': "drm_key",
+  'key': {
+    'ecbc9e6fe6b145efb6658fb5cf7427f8': "03c17e28911f71221acbc0b11f900401"
+  }
+}, {
+  'name': "SSC EXTRA 2",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://ssc-extra2-ak.akamaized.net/out/v1/8b70de2b70d447ba8a7450ba90926a2d/index.mpd",
+  'type': "drm_key",
+  'key': {
+    '4d89249bd4ca4ebc9e70443265f9507d': "cf074ffd2646c9c2f8513b47fa57bc30"
+  }
+}, {
+  'name': "SSC EXTRA 3",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://ssc-extra3-on-prem-cw-ak.akamaized.net/out/v1/9d373d000ab64078b131f9d4c18e3502/index.mpd",
+  'type': "drm_key",
+  'key': {
+    '9b05d5f11a0b422d86354c34782ed2bc': "82aef319b4cfc71fd48cdd495ee79786"
+  }
+}, {
+  'name': "SSC NEWS",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://ssc-news-live-ak.akamaized.net/out/v1/ef466f43623c4bbaa3f905b566ec35ea/index.mpd",
+  'type': "drm_key",
+  'key': {
+    '3d04975236a44f62857d181597705ee6': "362133e9cb13189ad4fe095ced216f60"
+  }
+}, {
+  'name': "UNBEATEN",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-044/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
+  }
+}, {
+  'name': "PLAY SPORTS 1",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-051/stream.mpd",
+  'type': 'drm_key',
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "PLAY SPORTS 2",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-052/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "PLAY SPORTS 3",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-053/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
+  }
+}, {
+  'name': "NFL",
+  'category': "SPORTS TV CHANNEL",
+  'link': 'https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-023/stream.mpd',
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "MLB",
+  'category': "SPORTS TV CHANNEL",
+  'link': 'https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-026/stream.mpd',
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "NBA TV",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-035/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "REDBULL TV",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-036/stream.mpd",
+  'type': 'drm_key',
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "MILAN TV",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-025/stream.mpd",
+  'type': 'drm_key',
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "DAZN F1",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-016/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "DAZN 1 DE",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-017/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "DAZN 2 DE",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-018/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "DAZN 1 ES",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-037/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
+  }
+}, {
+  'name': "DAZN 2 ES",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-038/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "INTER TV",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-033/stream.mpd",
+  'type': 'drm_key',
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "DAZN LA LIGA",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-043/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "CANAL+ LIGUE 1",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-046/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "SPORTDIGITAL",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-022/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "ZONA DAZN",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-024/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "ELEVEN 1 PT",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-054/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "ELEVEN 2 PT",
+  'category': "SPORTS TV CHANNEL",
+  'link': 'https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-055/stream.mpd',
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
+  }
+}, {
+  'name': "ELEVEN 3 PT",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-056/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "ELEVEN 4 PT",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-057/stream.mpd",
+  'type': 'drm_key',
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
+  }
+}, {
+  'name': "ELEVEN 5 PT",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-058/stream.mpd",
+  'type': 'drm_key',
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "ELEVEN 6 PT",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-059/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "DAZN ELEVEN PRO LEAGUE 1",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-050/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "EUROSPORT 1 ESP",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-031/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "EUROSPORT 2 ESP",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-032/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
+  }
+}, {
+  'name': "EUROSPORT 1 DE",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-027/stream.mpd",
+  'type': 'drm_key',
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "EUROSPORT 2 DE",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-028/stream.mpd",
+  'type': "drm_key",
+  'key': {
+    '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
+  }
+}, {
+  'name': "SKY CINEMA ACTION",
+  'category': "SPORTS TV CHANNEL",
+  'link': 'https://linear017-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skycinemaaction)/manifest_mob.mpd',
+  'type': "drm_key",
+  'key': {
+    '0003d8b3ca2a42568a0e97db51b7ab8f': '10d2d8c97c55c1c6ece54d3f89eaa48e'
+  }
+}, {
+  'name': "SKY SPORTS CRICKET",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://linear003-gb-dash1-prd-cf.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skysportscricket)/manifest_sd.mpd",
+  'type': "drm_key",
+  'key': {
+    '0003f2a72d21efd159d45a3a74decd84': "df0ec40586d641f3d4728ab5fd62adc3"
+  }
+}, {
+  'name': "SKY SPORTS F1",
+  'category': "SPORTS TV CHANNEL",
+  'link': 'https://linear004-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_hd/Live/channel(sportsf150)/manifest_hd.mpd',
+  'type': "drm_key",
+  'key': {
+    '0003e68c20290ea35eec1e3bceafa5b5': "bc799e40dd3e4e3257d746ebc036c992"
+  }
+}, {
+  'name': "SKY SPORTS MIX",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://linear032-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_hd/Live/channel(sportsmix50)/manifest_hd.mpd",
+  'type': "drm_key",
+  'key': {
+    '0003a6c61c2b2f7f0a9d760ac83c06d8': '7305fa96d356316f2d544bfc78a6922c'
+  }
+}, {
+  'name': "SKY SPORTS GOLF",
+  'category': "SPORTS TV CHANNEL",
+  'link': "https://linear006-gb-dash1-prd-cf.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skysportsgolf)/manifest_sd.mpd",
+  'type': "drm_key",
+  'key': {
+    '0003276bbe0b7f5c9c05ec201bddf545': 'a3546a8bd8d03e6f3ca48629ea45ebb8'
+  }
 }, {
   'name': "USA NETWORK",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-east)/master.mpd",
   'type': 'drm_key',
   'key': {
@@ -392,7 +425,7 @@ const data_channels = [{
   }
 }, {
   'name': "TSN 1",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN1/manifest.mpd",
   'type': "drm_key",
   'key': {
@@ -400,7 +433,7 @@ const data_channels = [{
   }
 }, {
   'name': "TSN 2",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN2/manifest.mpd",
   'type': "drm_key",
   'key': {
@@ -408,7 +441,7 @@ const data_channels = [{
   }
 }, {
   'name': "TSN 3",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN3/manifest.mpd",
   'type': "drm_key",
   'key': {
@@ -416,7 +449,7 @@ const data_channels = [{
   }
 }, {
   'name': "TSN 4",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN4/manifest.mpd",
   'type': "drm_key",
   'key': {
@@ -424,7 +457,7 @@ const data_channels = [{
   }
 }, {
   'name': "TSN 5",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN5/manifest.mpd",
   'type': "drm_key",
   'key': {
@@ -432,7 +465,7 @@ const data_channels = [{
   }
 }, {
   'name': "ARENA 1 PREMIUM",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': 'https://webtvstream.bhtelecom.ba/hls6/as_premium1.mpd',
   'type': 'drm_key',
   'key': {
@@ -440,7 +473,7 @@ const data_channels = [{
   }
 }, {
   'name': "ARENA 2 PREMIUM",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': 'https://webtvstream.bhtelecom.ba/hls6/as_premium2.mpd',
   'type': 'drm_key',
   'key': {
@@ -448,7 +481,7 @@ const data_channels = [{
   }
 }, {
   'name': "ARENA 3 PREMIUM",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://webtvstream.bhtelecom.ba/hls6/as_premium3.mpd",
   'type': "drm_key",
   'key': {
@@ -456,7 +489,7 @@ const data_channels = [{
   }
 }, {
   'name': "ARENA SPORT 1",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://webtvstream.bhtelecom.ba/hls6/arena1.mpd",
   'type': "drm_key",
   'key': {
@@ -464,7 +497,7 @@ const data_channels = [{
   }
 }, {
   'name': "ARENA SPORT 1X2",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://webtvstream.bhtelecom.ba/hls6/arena_1x2.mpd",
   'type': "drm_key",
   'key': {
@@ -472,7 +505,7 @@ const data_channels = [{
   }
 }, {
   'name': "ARENA SPORT 2",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://webtvstream.bhtelecom.ba/hls6/arena2.mpd",
   'type': "drm_key",
   'key': {
@@ -480,7 +513,7 @@ const data_channels = [{
   }
 }, {
   'name': "ARENA SPORT 3",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://webtvstream.bhtelecom.ba/hls6/arena3.mpd",
   'type': "drm_key",
   'key': {
@@ -488,7 +521,7 @@ const data_channels = [{
   }
 }, {
   'name': "ARENA SPORT 4",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://webtvstream.bhtelecom.ba/hls6/arena4.mpd",
   'type': "drm_key",
   'key': {
@@ -496,7 +529,7 @@ const data_channels = [{
   }
 }, {
   'name': "ARENA SPORT 5",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://webtvstream.bhtelecom.ba/hls6/arena5.mpd",
   'type': 'drm_key',
   'key': {
@@ -504,7 +537,7 @@ const data_channels = [{
   }
 }, {
   'name': "ARENA SPORT 6",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://webtvstream.bhtelecom.ba/hls6/arena6.mpd",
   'type': "drm_key",
   'key': {
@@ -512,7 +545,7 @@ const data_channels = [{
   }
 }, {
   'name': "ARENA SPORT PREMIER LEAGUE",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://webtvstream.bhtelecom.ba/hls6/premier_league.mpd",
   'type': 'drm_key',
   'key': {
@@ -520,7 +553,7 @@ const data_channels = [{
   }
 }, {
   'name': "DAZN COMBAT",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': 'https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-502/stream.mpd',
   'type': "drm_key",
   'key': {
@@ -528,7 +561,7 @@ const data_channels = [{
   }
 }, {
   'name': "DAZN FAST+",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-504/stream.mpd",
   'type': 'drm_key',
   'key': {
@@ -536,7 +569,7 @@ const data_channels = [{
   }
 }, {
   'name': "DAZN RISE",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-501/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -544,7 +577,7 @@ const data_channels = [{
   }
 }, {
   'name': "DAZN WOMENS FOOTBALL",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-503/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -552,7 +585,7 @@ const data_channels = [{
   }
 }, {
   'name': "PRIMA SPORTS 1",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': 'https://ott.cyberhost.ro/sdash/LIVE$LookPlus/index.mpd/Manifest?start=LIVE&end=END&device=MPD-LIVE-PC-Widevine-HD-ENC',
   'type': 'drm_key',
   'key': {
@@ -560,7 +593,7 @@ const data_channels = [{
   }
 }, {
   'name': "PRIMA SPORTS 2",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://ott.cyberhost.ro/sdash/LIVE$LookTVHD/index.mpd/Manifest?start=LIVE&end=END&device=MPD-LIVE-PC-Widevine-HD-ENC",
   'type': "drm_key",
   'key': {
@@ -568,7 +601,7 @@ const data_channels = [{
   }
 }, {
   'name': "PRIMA SPORTS 3",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://ott1.cyberhost.ro/sdash/LIVE$LookSport3HD/index.mpd/Manifest?start=LIVE&end=END&device=MPD-LIVE-PC-Widevine-HD-ENC",
   'type': "drm_key",
   'key': {
@@ -576,7 +609,7 @@ const data_channels = [{
   }
 }, {
   'name': "PRIMA SPORTS 4",
-  'category': "KAWAGUCHI MAEDA",
+  'category': "SPORTS TV CHANNEL",
   'link': "https://ott.cyberhost.ro/sdash/LIVE$LookSport2HD/index.mpd/Manifest?start=LIVE&end=END&device=MPD-LIVE-PC-Widevine-HD-ENC",
   'type': "drm_key",
   'key': {
