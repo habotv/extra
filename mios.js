@@ -2497,13 +2497,6 @@ const data_channels = [
 }];
 let video_player = '';
 let video_ui = '';
-const config = {
-      'seekBarColors': {
-        base: 'rgba(255, 0, 100)',
-        buffered: 'rgba(255,255,255,.4)',
-        played: 'rgb(255,0,0)',
-      }
-    }
 function _(_0x36cdd2) {
   return document.getElementById(_0x36cdd2);
 }
@@ -2559,6 +2552,13 @@ function init_player() {
   _0x20b88d.configure(_0x36e170);
   video_player = _0x28209a;
   video_ui = _0x20b88d;
+  const config = {
+      'seekBarColors': {
+        base: 'rgba(255, 0, 100)',
+        buffered: 'rgba(255,255,255,.4)',
+        played: 'rgb(255,0,0)',
+      }
+    };
 }
 function resize_elements() {
   let _0xe3a70b = document.getElementById("channels-tab").clientHeight - document.getElementById("player-row").clientHeight - document.getElementById("list-tab").clientHeight - document.getElementById('form-search').clientHeight - 0x13;
