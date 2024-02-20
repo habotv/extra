@@ -146,7 +146,7 @@ const data_channels = [
 }, {
   'name': "PLAY SPORTS 1",
   'category': "SPORTS TV CHANNEL",
-  'link': "https://dce-fs-live-dazn-cdn.dazn.com/dashrdm/dazn-linear-051/stream.mpd",
+  'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-051/stream.mpd",
   'type': 'drm_key',
   'key': {
     '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
