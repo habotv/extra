@@ -26,7 +26,7 @@ const data_channels = [
 },{
   'name': "BEIN SPORTS 4 THAILAND",
   'category': "SPORTS TV CHANNEL",
-  'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0003/DASH/S0004.mpd",
+  'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0004/DASH/S0004.mpd",
   'type': "drm_key",
   'key': {
     'cb419fa5f5498e2c6cbc39363248ddd7': "b5853b51f2060025a822e62973154556"
@@ -34,7 +34,7 @@ const data_channels = [
 },{
   'name': "BEIN SPORTS 5 THAILAND",
   'category': "SPORTS TV CHANNEL",
-  'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0003/DASH/S0005.mpd",
+  'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0005/DASH/S0005.mpd",
   'type': "drm_key",
   'key': {
     '3a165f923cd49e616f173fc6c341cc56': "4cb96186d69f1a63c40218812a6f6910"
@@ -42,7 +42,7 @@ const data_channels = [
 },{
   'name': "BEIN SPORTS 6 THAILAND",
   'category': "SPORTS TV CHANNEL",
-  'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0003/DASH/S0006.mpd",
+  'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0006/DASH/S0006.mpd",
   'type': "drm_key",
   'key': {
     'ceac4607562049abb9d1b0309d9cd6f3': "d396d277a364fab00d0193d25b700847"
@@ -50,7 +50,7 @@ const data_channels = [
 },{
   'name': "BEIN SPORTS 7 THAILAND",
   'category': "SPORTS TV CHANNEL",
-  'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0003/DASH/S0007.mpd",
+  'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0007/DASH/S0007.mpd",
   'type': "drm_key",
   'key': {
     '94a28a75b3891e92a97efbe76f941095': "7b39cd0e318ee481b98c36a125c540fb"
