@@ -1,7 +1,7 @@
 const data_channels = [{
   'name': "ESPN",
   'category': "KAWAGUCHI MAEDA",
-  'link': "https://chromecast.cvattv.com.ar/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd",
+  'link': "https://edge-live11-hr.cvattv.com.ar/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd",
   'type': "drm_key",
   'key': {
     'f4c9f97e2a36feab0e5077f2b44cbc4e': "1743cd03dfe3736b2c95da91a783af38"
