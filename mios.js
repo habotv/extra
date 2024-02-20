@@ -2499,7 +2499,7 @@ let video_player = '';
 let video_ui = '';
 const config = {
       'seekBarColors': {
-        base: 'rgba(255,255,255,.2)',
+        base: 'rgba(255, 0, 100)',
         buffered: 'rgba(255,255,255,.4)',
         played: 'rgb(255,0,0)',
       }
