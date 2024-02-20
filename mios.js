@@ -2497,16 +2497,16 @@ const data_channels = [
 }];
 let video_player = '';
 let video_ui = '';
-function _(_0x36cdd2) {
-  return document.getElementById(_0x36cdd2);
-}
-    const config = {
+const config = {
       'seekBarColors': {
         base: 'rgba(255,255,255,.2)',
         buffered: 'rgba(255,255,255,.4)',
         played: 'rgb(255,0,0)',
       }
     }
+function _(_0x36cdd2) {
+  return document.getElementById(_0x36cdd2);
+}
 function change_channel(_0x3b65a9) {
   let _0x3e216e = data_channels[_0x3b65a9.getAttribute("data-index")];
   document.title = "Live Streaming " + _0x3e216e.name;
