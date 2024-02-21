@@ -1404,7 +1404,7 @@ function init_player() {
   const _0x28209a = _0x116699.getPlayer();
   const _0x36e170 = {
   'seekBarColors': {
-        base: '#999',
+        base: 'rgba(255,255,255,0.5)',
         buffered: 'white',
         played: '#e30060',
       },
