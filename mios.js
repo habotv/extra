@@ -10,6 +10,22 @@ const data_channels = [
   'link': "https://op-group1-swiftservehd-1.dens.tv/h/h207/index.m3u8",
   'type': "hls"
 },{
+  'name': "HBO MOVIE - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://tglmp01.akamaized.net/out/v1/29687feb8f96427ca7348cd59c2338d9/manifest.mpd",
+  'type': "drm_key",
+  'key': {
+    'a407479f074d43d798478c1212d95876': '3afb53a2643939cd7128fa7ceded533a'
+  }
+},{  
+  'name': "ANTV - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd",
+  'type': "drm_key",
+  'key': {
+    '4310edb8b9ffe79abb40bacafa778ec3': 'aebb7e86d8a336d9a93d3dd8a41153cf'
+  }
+},{
   'name': "ANTV - INDONESIA TV",
   'category': "CHANNEL INDONESIA TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd",
