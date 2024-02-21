@@ -9,7 +9,15 @@ const data_channels = [
   'category': "CHANNEL INDONESIA TV",
   'link': "https://op-group1-swiftservehd-1.dens.tv/h/h207/index.m3u8",
   'type': "hls"
-}, {
+},{
+  'name': "ANTV - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd",
+  'type': "drm_key",
+  'key': {
+    '4310edb8b9ffe79abb40bacafa778ec3': 'aebb7e86d8a336d9a93d3dd8a41153cf'
+  }
+}, { 
   'name': "BEIN SPORTS 1 THAILAND",
   'category': "SPORTS TV CHANNEL",
   'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0001/DASH/S0001.mpd",
