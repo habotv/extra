@@ -4,13 +4,11 @@ const data_channels = [
   'category': "CHANNEL INDONESIA TV",
   'link': "https://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8",
   'type': "hls"
-  }
 },{
   'name': "INDOSIAR - INDONESIA TV",
   'category': "CHANNEL INDONESIA TV",
   'link': "https://op-group1-swiftservehd-1.dens.tv/h/h207/index.m3u8",
   'type': "hls"
-  }
 }, {
   'name': "BEIN SPORTS 1 THAILAND",
   'category': "SPORTS TV CHANNEL",
