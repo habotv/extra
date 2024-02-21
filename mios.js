@@ -1402,19 +1402,17 @@ function init_player() {
   const _0x20b88d = _0x53270b.ui;
   const _0x116699 = _0x20b88d.getControls();
   const _0x28209a = _0x116699.getPlayer();
-  const config = {
-      'seekBarColors': {
-        base: 'rgba(255, 0, 100)',
-        buffered: 'rgba(255,255,255,.4)',
-        played: 'rgb(255,0,0)',
-      }
-    };
   const _0x36e170 = {
     'controlPanelElements': ['play_pause','mute','volume', 'spacer', 'picture_in_picture', 'captions', 'language', 'playback_rate', 'quality',  'fullscreen']
   };
   _0x20b88d.configure(_0x36e170);
   video_player = _0x28209a;
   video_ui = _0x20b88d;
+  'seekBarColors': {
+        base: 'rgba(255, 0, 100)',
+        buffered: 'rgba(255,255,255,.4)',
+        played: 'rgb(255,0,0)',
+      }
 }
 function resize_elements() {
   let _0xe3a70b = document.getElementById("channels-tab").clientHeight - document.getElementById("player-row").clientHeight - document.getElementById("list-tab").clientHeight - document.getElementById('form-search').clientHeight - 0x13;
