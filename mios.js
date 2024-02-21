@@ -18,12 +18,12 @@ const data_channels = [
     'a407479f074d43d798478c1212d95876': '3afb53a2643939cd7128fa7ceded533a'
   }
 },{  
-  'name': "ANTV - INDONESIA TV",
+  'name': "HBO FAMILY - INDONESIA TV",
   'category': "CHANNEL INDONESIA TV",
-  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd",
+  'link': "https://tglmp03.akamaized.net/out/v1/d15476c2807d4380b0cc375a7d861752/manifest.mpd",
   'type': "drm_key",
   'key': {
-    '4310edb8b9ffe79abb40bacafa778ec3': 'aebb7e86d8a336d9a93d3dd8a41153cf'
+    '363b551913124d6b80074ca295b25129': 'a6c6efcab0076d572e5732fb6451d19c'
   }
 },{
   'name': "ANTV - INDONESIA TV",
