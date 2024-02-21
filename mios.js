@@ -1403,8 +1403,7 @@ function init_player() {
   const _0x116699 = _0x20b88d.getControls();
   const _0x28209a = _0x116699.getPlayer();
   const _0x36e170 = {
-    'controlPanelElements': ['play_pause','mute','volume', 'spacer', 'picture_in_picture', 'captions', 'language', 'playback_rate', 'quality',  'fullscreen']
-  };
+  'controlPanelElements': ['play_pause','mute','volume', 'spacer', 'picture_in_picture', 'captions', 'language', 'playback_rate', 'quality',  'fullscreen']
   'seekBarColors': {
         base: 'rgba(255, 0, 100)',
         buffered: 'rgba(255,255,255,.4)',
