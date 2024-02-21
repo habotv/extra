@@ -1404,10 +1404,10 @@ function init_player() {
   const _0x28209a = _0x116699.getPlayer();
   const _0x36e170 = {
   'seekBarColors': {
-        base: 'rgba(255, 0, 100)',
-        buffered: 'rgba(255,255,255,.4)',
-        played: 'rgb(255,0,0)',
-      };
+        base: '#999',
+        buffered: 'white',
+        played: '#e30060',
+      },
   'controlPanelElements': ['play_pause','mute','volume', 'spacer', 'picture_in_picture', 'captions', 'language', 'playback_rate', 'quality',  'fullscreen']
     };
   _0x20b88d.configure(_0x36e170);
