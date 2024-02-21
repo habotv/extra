@@ -1,5 +1,11 @@
 const data_channels = [
 {
+  'name': "SCTV - INDONESIA TV",
+  'category': "INDONESIA TV",
+  'link': "https://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8",
+  'type': "hls"
+}, 
+{
   'name': "BEIN SPORTS 1 THAILAND",
   'category': "SPORTS TV CHANNEL",
   'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0001/DASH/S0001.mpd",
