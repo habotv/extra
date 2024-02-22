@@ -213,7 +213,7 @@ const data_channels = [
     '0009df430980c91904926a291cf321fb': '1564522f5b2d62bb5099ffb144f81e1e'
   }
 }, {
-  'name': "SSC 1",
+  'name': "SSC 1 ARABIC",
   'category': "CHANNEL SPORTS TV",
   'link': "https://ssc1-ak.akamaized.net/out/v1/c696e4819b55414388a1a487e8a45ca1/index.mpd",
   'type': "drm_key",
@@ -221,7 +221,7 @@ const data_channels = [
     'd84c325f36814f39bbe59080272b10c3': "550727de4c96ef1ecff874905493580f"
   }
 }, {
-  'name': "SSC 2",
+  'name': "SSC 2 ARABIC",
   'category': "CHANNEL SPORTS TV",
   'link': "https://ssc2-ak.akamaized.net/out/v1/a16db2ec338a445a82d9c541cc9293f9/index.mpd",
   'type': "drm_key",
@@ -229,7 +229,7 @@ const data_channels = [
     '8bcfc55359e24bd7ad1c5560a96ddd3c': "b5dcf721ab522af92a9d3bf0bd55b596"
   }
 }, {
-  'name': "SSC 3",
+  'name': "SSC 3 ARABIC",
   'category': "CHANNEL SPORTS TV",
   'link': "https://ssc3-ak.akamaized.net/out/v1/42e86125555242aaa2a12056832e7814/index.mpd",
   'type': 'drm_key',
@@ -237,7 +237,7 @@ const data_channels = [
     '7de5dd08ad8041d586c2f16ccc9490a1': "5e1503f3398b34f5099933fedab847ef"
   }
 }, {
-  'name': "SSC 4",
+  'name': "SSC 4 ARABIC",
   'category': "CHANNEL SPORTS TV",
   'link': "https://ssc4-ak.akamaized.net/out/v1/5267ea5772874b0db24559d643eaad93/index.mpd",
   'type': "drm_key",
@@ -245,7 +245,7 @@ const data_channels = [
     '5c672f6b85a94638872d0214f7806ed4': "bf8756fbb866ee2d5c701c2289dd8de3"
   }
 }, {
-  'name': "SSC 5",
+  'name': "SSC 5 ARABIC",
   'category': "CHANNEL SPORTS TV",
   'link': "https://ssc5-ak.akamaized.net/out/v1/99289eac5a7b4319905da595afbd792b/index.mpd",
   'type': "drm_key",
@@ -253,7 +253,7 @@ const data_channels = [
     'c88b512b17ab4f6cb09eb0ff4a1056ed': 'adc08ee1c20a734972a55c9aebbd1888'
   }
 }, {
-  'name': "SSC EXTRA 1",
+  'name': "SSC EXTRA 1 ARABIC",
   'category': "CHANNEL SPORTS TV",
   'link': "https://ssc-extra1-ak.akamaized.net/out/v1/647c58693f1d46af92bd7e69f17912cb/index.mpd",
   'type': "drm_key",
@@ -261,7 +261,7 @@ const data_channels = [
     'ecbc9e6fe6b145efb6658fb5cf7427f8': "03c17e28911f71221acbc0b11f900401"
   }
 }, {
-  'name': "SSC EXTRA 2",
+  'name': "SSC EXTRA 2 ARABIC",
   'category': "CHANNEL SPORTS TV",
   'link': "https://ssc-extra2-ak.akamaized.net/out/v1/8b70de2b70d447ba8a7450ba90926a2d/index.mpd",
   'type': "drm_key",
@@ -269,7 +269,7 @@ const data_channels = [
     '4d89249bd4ca4ebc9e70443265f9507d': "cf074ffd2646c9c2f8513b47fa57bc30"
   }
 }, {
-  'name': "SSC EXTRA 3",
+  'name': "SSC EXTRA 3 ARABIC",
   'category': "CHANNEL SPORTS TV",
   'link': "https://ssc-extra3-on-prem-cw-ak.akamaized.net/out/v1/9d373d000ab64078b131f9d4c18e3502/index.mpd",
   'type': "drm_key",
@@ -357,7 +357,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
   }
 }, {
-  'name': "DAZN F1",
+  'name': "DAZN FORMULA 1",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-016/stream.mpd",
   'type': "drm_key",
@@ -365,7 +365,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
   }
 }, {
-  'name': "DAZN 1 DE",
+  'name': "DAZN 1 GERMANY",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-017/stream.mpd",
   'type': "drm_key",
@@ -373,7 +373,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
   }
 }, {
-  'name': "DAZN 2 DE",
+  'name': "DAZN 2 GERMANY",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-018/stream.mpd",
   'type': "drm_key",
@@ -381,7 +381,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
   }
 }, {
-  'name': "DAZN 1 ES",
+  'name': "DAZN 1 ESPANOL",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-037/stream.mpd",
   'type': "drm_key",
@@ -389,7 +389,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
   }
 }, {
-  'name': "DAZN 2 ES",
+  'name': "DAZN 2 ESPANOL",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-038/stream.mpd",
   'type': "drm_key",
@@ -429,7 +429,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
   }
 }, {
-  'name': "ZONA DAZN",
+  'name': "ZONA DAZN ITALIAN",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-024/stream.mpd",
   'type': "drm_key",
@@ -437,7 +437,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
   }
 }, {
-  'name': "ELEVEN 1 PT",
+  'name': "ELEVEN 1 PORTUGAL",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-054/stream.mpd",
   'type': "drm_key",
@@ -445,7 +445,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
   }
 }, {
-  'name': "ELEVEN 2 PT",
+  'name': "ELEVEN 2 PORTUGAL",
   'category': "CHANNEL SPORTS TV",
   'link': 'https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-055/stream.mpd',
   'type': "drm_key",
@@ -453,7 +453,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
   }
 }, {
-  'name': "ELEVEN 3 PT",
+  'name': "ELEVEN 3 PORTUGAL",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-056/stream.mpd",
   'type': "drm_key",
@@ -461,7 +461,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
   }
 }, {
-  'name': "ELEVEN 4 PT",
+  'name': "ELEVEN 4 PORTUGAL",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-057/stream.mpd",
   'type': 'drm_key',
@@ -469,7 +469,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
   }
 }, {
-  'name': "ELEVEN 5 PT",
+  'name': "ELEVEN 5 PORTUGAL",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-058/stream.mpd",
   'type': 'drm_key',
@@ -477,7 +477,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
   }
 }, {
-  'name': "ELEVEN 6 PT",
+  'name': "ELEVEN 6 PORTUGAL",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-059/stream.mpd",
   'type': "drm_key",
@@ -493,7 +493,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
   }
 }, {
-  'name': "EUROSPORT 1 ESP",
+  'name': "EUROSPORT 1 ESPANOL",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-031/stream.mpd",
   'type': "drm_key",
@@ -501,7 +501,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
   }
 }, {
-  'name': "EUROSPORT 2 ESP",
+  'name': "EUROSPORT 2 ESPANOL",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-032/stream.mpd",
   'type': "drm_key",
@@ -509,7 +509,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': '1b144f73e6fefe91cd05f850e2b589d0'
   }
 }, {
-  'name': "EUROSPORT 1 DE",
+  'name': "EUROSPORT 1 GERMANY",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-027/stream.mpd",
   'type': 'drm_key',
@@ -517,7 +517,7 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
   }
 }, {
-  'name': "EUROSPORT 2 DE",
+  'name': "EUROSPORT 2 GERMANY",
   'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-028/stream.mpd",
   'type': "drm_key",
@@ -565,7 +565,7 @@ const data_channels = [
     '0003276bbe0b7f5c9c05ec201bddf545': 'a3546a8bd8d03e6f3ca48629ea45ebb8'
   }
 }, {
-  'name': "USA NETWORK",
+  'name': "NBCSN SPORTS NETWORK ",
   'category': "CHANNEL SPORTS TV",
   'link': "https://fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-east)/master.mpd",
   'type': 'drm_key',
@@ -573,7 +573,7 @@ const data_channels = [
     '882c9f5613b43b47adc70aa968a308ce': 'de534ef8914bfe62ba3cdd6bdb9e1c04'
   }
 }, {
-  'name': "TSN 1",
+  'name': "TSN SPORTS 1",
   'category': "CHANNEL SPORTS TV",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN1/manifest.mpd",
   'type': "drm_key",
@@ -581,7 +581,7 @@ const data_channels = [
     'dea83ced0141424e983e1afe463b4b0d': "c00dd5dd17b0799aa4013f365a1393ce"
   }
 }, {
-  'name': "TSN 2",
+  'name': "TSN SPORTS 2",
   'category': "CHANNEL SPORTS TV",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN2/manifest.mpd",
   'type': "drm_key",
@@ -589,7 +589,7 @@ const data_channels = [
     'ddc52c88e2c24d38a5bc8dda8a2acb61': "ad5ea485464a13eec7dda3249c556446"
   }
 }, {
-  'name': "TSN 3",
+  'name': "TSN SPORTS 3",
   'category': "CHANNEL SPORTS TV",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN3/manifest.mpd",
   'type': "drm_key",
@@ -597,7 +597,7 @@ const data_channels = [
     'c0f378ad54e14a9c85a3d8c986d2a51f': '5e1d040743ff78715e464ffb905e68a9'
   }
 }, {
-  'name': "TSN 4",
+  'name': "TSN SPORTS 4",
   'category': "CHANNEL SPORTS TV",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN4/manifest.mpd",
   'type': "drm_key",
@@ -605,7 +605,7 @@ const data_channels = [
     'f0a2efd11e0643c3a45d6f67d02f1a97': "85bf4469003bd28f01ea4fefedd5a431"
   }
 }, {
-  'name': "TSN 5",
+  'name': "TSN SPORTS 5",
   'category': "CHANNEL SPORTS TV",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN5/manifest.mpd",
   'type': "drm_key",
@@ -765,6 +765,22 @@ const data_channels = [
     'c68ec2e525d8406b6c3cedbac72debae': "a0f28f93fb9834d331df3ddedeb8a565"
   }
 }, {
+  'name': "ORANGE SPORTS 1",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://ott1.cyberhost.ro/sdash/LIVE$DolceSportHD/index.mpd/Manifest?start=LIVE&end=END&device=MPD-LIVE-PC-Widevine-HD-ENC",
+  'type': "drm_key",
+  'key': {
+    'b11517de312fcab5cba06be35e482138': "806573a74789a69651c162da4dbb5526"
+  }
+}, {
+  'name': "ORANGE SPORTS 2",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://ott1.cyberhost.ro/sdash/LIVE$DolceSport2HD/index.mpd/Manifest?start=LIVE&end=END&device=MPD-LIVE-PC-Widevine-HD-ENC",
+  'type': "drm_key",
+  'key': {
+    'f75302cdb04a09e43f153095bcacd123': "307bf889d92969ffd3014dddb67999f6"
+  }
+}, {  
   'name': "DATELINE",
   'category': "USA TV",
   'link': 'https://akam.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc112xzr75)/master.mpd',
