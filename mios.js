@@ -146,6 +146,16 @@ const data_channels = [
     '55b47390cf9e4997dae6dac85e057875': "fa39e855543c5d70f30600d59e5e4c1b"
   }
 }, { 
+  'name': "SPORTS TV 1 PORTUGAL",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://da-d50d12b5.online.meo.pt/wp/cdn-er-vspp-cvl2.online.meo.pt/shls/LIVE$SPORTTV1_HD/index.m3u8/S!d2EISU9TX0xpdmUSBkPIS1XDVP7...8BFgyf/Level(3000000)",
+  'type': "hls"
+}, { 
+  'name': "SPORTS TV 2 PORTUGAL",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://da-d50d12b5.online.meo.pt/wp/cdn-er-vspp-cvl2.online.meo.pt/shls/LIVE$SPORTTV2_HD/index.m3u8/S!d2EISU9TX0xpdmUSBkPIS1XDVP7...8BFgyf/Level(3000000)",
+  'type': "hls"
+}, {  
   'name': "TNT SPORTS 1",
   'category': "CHANNEL SPORTS TV",
   'link': "https://linear114-ie-dash1-prd-ak.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(gcptntsport1)/manifest_sd.mpd",
