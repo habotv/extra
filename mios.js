@@ -25,13 +25,21 @@ const data_channels = [
   'key': {
     '363b551913124d6b80074ca295b25129': 'a6c6efcab0076d572e5732fb6451d19c'
   }
+},{  
+  'name': "HBO FAMILY - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://tglmp03.akamaized.net/out/v1/d15476c2807d4380b0cc375a7d861752/manifest.mpd",
+  'type': "drm_key",
+  'key': {
+    '363b551913124d6b80074ca295b25129': 'a6c6efcab0076d572e5732fb6451d19c'
+  }
 },{
   'name': "RCTI - INDONESIA TV",
   'category': "CHANNEL INDONESIA TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
   'type': "drm_key",
   'key': {
-    '9ba3e153ef8956d6e2b0684fcf74f58f': 'dbc28cb5c6426080f984a5b6d436bb30'
+    '9ba3e153ef8956d6e2b0684fcf74f58f': "dbc28cb5c6426080f984a5b6d436bb30"
   }
 },{
   'name': "MNC TV - INDONESIA TV",
