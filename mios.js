@@ -796,6 +796,22 @@ const data_channels = [
   'key': {
     'f75302cdb04a09e43f153095bcacd123': "307bf889d92969ffd3014dddb67999f6"
   }
+}, {
+  'name': "ORANGE SPORTS 3",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://ott1.cyberhost.ro/sdash/LIVE$DolceSport3/index.mpd/Manifest?start=LIVE&end=END&device=MPD-LIVE-PC-Widevine-HD-ENC",
+  'type': "drm_key",
+  'key': {
+    'b87857ba74ce03f9fa2866f1e086d05d': "1cd289ac71ce5fb306a5e7653192ce3a"
+  }
+}, {
+  'name': "ORANGE SPORTS 4",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://ott1.cyberhost.ro/sdash/LIVE$DolceSport4/index.mpd/Manifest?start=LIVE&end=END&device=MPD-LIVE-PC-Widevine-HD-ENC",
+  'type': "drm_key",
+  'key': {
+    '202a927cd913101de765b0e5bb3f500f': "cdd399869057bc34c827f257f562643a"
+  }
 }, {  
   'name': "DATELINE",
   'category': "USA TV",
