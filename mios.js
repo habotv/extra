@@ -155,6 +155,31 @@ const data_channels = [
   'category': "CHANNEL SPORTS TV",
   'link': "https://da-d50d12b5.online.meo.pt/wp/cdn-er-vspp-cvl2.online.meo.pt/shls/LIVE$SPORTTV2_HD/index.m3u8/S!d2EISU9TX0xpdmUSBkPIS1XDVP7...8BFgyf/Level(3000000)",
   'type': "hls"
+}, { 
+  'name': "SPORTS TV 3 PORTUGAL",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://da-d50d12b5.online.meo.pt/wp/cdn-er-vspp-cvl2.online.meo.pt/shls/LIVE$SPORTTV3_HD/index.m3u8/S!d2EISU9TX0xpdmUSBkPIS1XDVP7...8BFgyf/Level(3000000)",
+  'type': "hls"
+}, { 
+  'name': "SPORTS TV 4 PORTUGAL",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://da-d50d12b5.online.meo.pt/wp/cdn-er-vspp-cvl2.online.meo.pt/shls/LIVE$SPORTTVLive_HD/index.m3u8/S!d2EISU9TX0xpdmUSBkPIS1XDVP7...8BFgyf/Level(3000000)",
+  'type': "hls"
+}, { 
+  'name': "SPORTS TV 5 PORTUGAL",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://da-d50d12b5.online.meo.pt/wp/cdn-er-vspp-cvl2.online.meo.pt/shls/LIVE$SPORTTV_GOLFE_HD/index.m3u8/S!d2EISU9TX0xpdmUSBkPIS1XDVP7...8BFgyf/Level(3000000)",
+  'type': "hls"
+}, { 
+  'name': "SPORTS TV 6 PORTUGAL",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://da-d50d12b5.online.meo.pt/wp/cdn-er-vspp-cvl2.online.meo.pt/shls/LIVE$SPORTTV6_HD/index.m3u8/S!d2EJVFZPU19MaXZlEgJU.v...wEWBJ8_/Level(3000000)",
+  'type': "hls"
+}, { 
+  'name': "CANAL 11 PORTUGAL",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://da-d50d12b5.online.meo.pt/wp/cdn-er-vspp-cvl2.online.meo.pt/shls/LIVE$C11_HD/index.m3u8/S!d2EISU9TX0xpdmUSBkPIS1XDVP7...8BFgyf/Level(3000000)",
+  'type': "hls"
 }, {  
   'name': "TNT SPORTS 1",
   'category': "CHANNEL SPORTS TV",
