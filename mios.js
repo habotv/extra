@@ -242,6 +242,22 @@ const data_channels = [
     '12da619438b3748da206142216d0943b': '6958377109d34561ad20645319cec62c'
   }
 }, {
+  'name': "GALAXY MOVIES",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/Galaxy-HD/sa_dash_vmx/Galaxy-HD.mpd",
+  'type': "drm_key",
+  'key': {
+    'e5c40292f8d01b1d5f0c6b3904d73104': 'bcb2ac12e11c69594ba217bfe8714efe'
+  }
+}, {
+  'name': "GALAXY MOVIES PREMIUM",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/GalaxyPremium-HD/sa_dash_vmx/GalaxyPremium-HD.mpd",
+  'type': "drm_key",
+  'key': {
+    '7bc29ff5f405dff971e3a326223fe26c': '06849a953a38da997b31bacf433cc74a'
+  }
+}, {
   'name': "SPOTV 1 - SPORTS TV",
   'category': "CHANNEL SPORTS TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd",
