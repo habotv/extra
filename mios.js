@@ -90,6 +90,70 @@ const data_channels = [
     '4310edb8b9ffe79abb40bacafa778ec3': 'aebb7e86d8a336d9a93d3dd8a41153cf'
   }
 }, {
+  'name': "TVONE - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/TVOne-2/sa_dash_vmx/TVOne-2.mpd",
+  'type': "drm_key",
+  'key': {
+    '90204c05545f95a262bb0d3ac45de870': '0e80f2a19fdf8da476bf695cd9570bb2'
+  }
+}, {
+  'name': "KOMPAS TV - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/KompasTV/sa_dash_vmx/KompasTV.mpd",
+  'type': "drm_key",
+  'key': {
+    '493fd10e609dd02ae97964f438e7e530': '695cf9896182c52f1c3a25820e7778f5'
+  }
+}, {
+  'name': "METRO TV - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/Metro-TV2/sa_dash_vmx/Metro-TV2.mpd",
+  'type': "drm_key",
+  'key': {
+    '4497473c5b978655ce62de7873e04174': '6af319f8d82351f8c3b18c9abdfdef4d'
+  }
+}, {
+  'name': "NET TV - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/NetTV-HD/sa_dash_vmx/NetTV-HD.mpd",
+  'type': "drm_key",
+  'key': {
+    '6b7bbcf1d511a56e6b3ceda392e4fa33': 'd1766244d7c1c44efd4c67aafae3ee7b'
+  }
+}, {
+  'name': "TVRI TV - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd",
+  'type': "drm_key",
+  'key': {
+    'ca65af90adc5e3ddb180e16426bb67da': 'b6f87a3a128dbd75ead036f596edeae7'
+  }
+}, {
+  'name': "BERITASATU TV - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd",
+  'type': "drm_key",
+  'key': {
+    'd022ff3be9391a16a8436261059806b0': 'e6dd32d6a257f900acb52a82d898bb81'
+  }
+}, {
+  'name': "JAK TV - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/JakTV/sa_dash_vmx/JakTV.mpd",
+  'type': "drm_key",
+  'key': {
+    'f2c9087e5432ce2c2f4ae8e1fd77ae4c': 'f7a50262991ca7d505fce1572a7f0c2a'
+  }
+}, {
+  'name': "JTV - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/JTV/sa_dash_vmx/JTV.mpd",
+  'type': "drm_key",
+  'key': {
+    '10e203f655014b5d18b0c85a6c72c809': 'acdcd0b65014e4929c6296171bdfebad'
+  }
+}, {
   'name': "SPOTV 1 - SPORTS TV",
   'category': "CHANNEL SPORTS TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd",
@@ -106,7 +170,7 @@ const data_channels = [
     '57d2ac9210cfbca3596cc679a01c8b29': 'd5e35c0f39c76adf24853d7ea18c71e7'
   }
 }, {
-  'name': "SPORTSTAR 1 HD",
+  'name': "SPORTSTARS 1 HD",
   'category': "CHANNEL SPORTS TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/MNCSports-HD/sa_dash_vmx/MNCSports-HD.mpd",
   'type': "drm_key",
@@ -114,7 +178,7 @@ const data_channels = [
     '531c6d50e3e9f9ba66446f624f492289': 'd769d9ae238bdd424f8bcdcdc9a3801f'
   }
 }, {
-  'name': "SPORTSTAR 2 HD",
+  'name': "SPORTSTARS 2 HD",
   'category': "CHANNEL SPORTS TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/MNCSports2-HD/sa_dash_vmx/MNCSports2-HD.mpd",
   'type': "drm_key",
@@ -122,7 +186,7 @@ const data_channels = [
     '45fec91ce1f19b6b1f31d69dcfaaf6cd': '843e228ab109e9aa6c4822ee4ad05d7d'
   }
 }, {
-  'name': "SPORTSTAR 3 HD",
+  'name': "SPORTSTARS 3 HD",
   'category': "CHANNEL SPORTS TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/MNCSports3-HD/sa_dash_vmx/MNCSports3-HD.mpd",
   'type': "drm_key",
@@ -130,7 +194,7 @@ const data_channels = [
     'fadd2720deff5925ab86df0819cd7775': 'f67ff08c7ebc779f6a6fcfc83835f65b'
   }
 }, {
-  'name': "SPORTSTAR 4 HD",
+  'name': "SPORTSTARS 4 HD",
   'category': "CHANNEL SPORTS TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/Sportstar4/sa_dash_vmx/Sportstar4.mpd",
   'type': "drm_key",
