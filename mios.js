@@ -170,6 +170,30 @@ const data_channels = [
     'fba45325e2cd8355972ede4981f43b2a': 'd88a4bdd67f89cd21eb074c81de1b994'
   }
 }, {
+  'name': "CINEMACHI XTRA",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/Cinemachi-Xtra-HD/sa_dash_vmx/Cinemachi-Xtra-HD.mpd",
+  'type': "drm_key",
+  'key': {
+    'b64eee6360b118d0d90329cc2c9e4c60': '4e97aa6422b26ffb372647dbd0a7683c'
+  }
+}, {
+  'name': "CINEMACHI MAX",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/Cinemachi-Max-HD/sa_dash_vmx/Cinemachi-Max-HD.mpd",
+  'type': "drm_key",
+  'key': {
+    '6c256f70830647e4bdf654d86e710ed5': 'fe41e9bcbae52f9d233407f7488bca5f'
+  }
+}, {
+  'name': "CINEMACHI KIDS",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/Cinemachi-Kids-HD/sa_dash_vmx/Cinemachi-Kids-HD.mpd",
+  'type': "drm_key",
+  'key': {
+    'ebe6190a3cfbbed4ec34e4d9c7a30e1e': 'd161b1f737e2aee9501149406c8abe9e'
+  }
+}, {
   'name': "SPOTV 1 - SPORTS TV",
   'category': "CHANNEL SPORTS TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd",
