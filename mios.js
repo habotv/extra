@@ -154,6 +154,22 @@ const data_channels = [
     '10e203f655014b5d18b0c85a6c72c809': 'acdcd0b65014e4929c6296171bdfebad'
   }
 }, {
+  'name': "CINEMACHI TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/Cinemachi-HD/sa_dash_vmx/Cinemachi-HD.mpd",
+  'type': "drm_key",
+  'key': {
+    'eeea0c2986e91a13eacd590ad1ebfe43': '0acc16bd84921489f67bad19e4099cae'
+  }
+}, {
+  'name': "CINEMACHI ACTION",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/Cinemachi-Action/sa_dash_vmx/Cinemachi-Action.mpd",
+  'type': "drm_key",
+  'key': {
+    'fba45325e2cd8355972ede4981f43b2a': 'd88a4bdd67f89cd21eb074c81de1b994'
+  }
+}, {
   'name': "SPOTV 1 - SPORTS TV",
   'category': "CHANNEL SPORTS TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd",
