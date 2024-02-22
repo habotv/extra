@@ -73,7 +73,7 @@ const data_channels = [
   'key': {
     '334950781f60a66f5e58324b70ac675d': '73caca97be8999ce9cfeb3babad8669d'
   }
-},{
+}, {
   'name': "RTV - INDONESIA TV",
   'category': "CHANNEL INDONESIA TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd",
@@ -81,13 +81,29 @@ const data_channels = [
   'key': {
     '30384ee5424eab4afdff34d7a59e0ef9': '5f3d2f2c194266ae9a28210f8976cbe0'
   }
-},{
+}, {
   'name': "ANTV - INDONESIA TV",
   'category': "CHANNEL INDONESIA TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd",
   'type': "drm_key",
   'key': {
     '4310edb8b9ffe79abb40bacafa778ec3': 'aebb7e86d8a336d9a93d3dd8a41153cf'
+  }
+}, {
+  'name': "SPOTV 1 - SPORTS TV",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd",
+  'type': "drm_key",
+  'key': {
+    '57d2ac9210cfbca3596cc679a01c8b29': 'd5e35c0f39c76adf24853d7ea18c71e7'
+  }
+}, {
+  'name': "SPOTV 2 - SPORTS TV",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd",
+  'type': "drm_key",
+  'key': {
+    '57d2ac9210cfbca3596cc679a01c8b29': 'd5e35c0f39c76adf24853d7ea18c71e7'
   }
 }, { 
   'name': "BEIN SPORTS 1 THAILAND",
