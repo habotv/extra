@@ -50,6 +50,14 @@ const data_channels = [
     '88f6c7cbd793374cb5f12d7e26dcd63b': 'e82daa7c7bfb03d99327463fdbd37336'
   }
 },{
+  'name': "INEWS TV - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/iNewsTV-HDD/sa_dash_vmx/iNewsTV-HDD.mpd",
+  'type': "drm_key",
+  'key': {
+    'a31cf5136789514b7e12b9cc99307c84': '980e54d671ffc2b2f4cf54e75cae0ac2'
+  }
+},{
   'name': "TRANS 7 - INDONESIA TV",
   'category': "CHANNEL INDONESIA TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd",
