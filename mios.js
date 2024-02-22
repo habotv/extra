@@ -18,7 +18,7 @@ const data_channels = [
     'a407479f074d43d798478c1212d95876': '3afb53a2643939cd7128fa7ceded533a'
   }
 },{  
-  'name': "HBO ACTION - INDONESIA",
+  'name': "HBO HITS - INDONESIA",
   'category': "CHANNEL INDONESIA TV",
   'link': "https://tglmp02.akamaized.net/out/v1/0fdcb3b643af40ceb3a5b7efa39f7b72/manifest.mpd",
   'type': "drm_key",
@@ -32,6 +32,22 @@ const data_channels = [
   'type': "drm_key",
   'key': {
     '363b551913124d6b80074ca295b25129': 'a6c6efcab0076d572e5732fb6451d19c'
+  }
+},{  
+  'name': "HBO ACTION - INDONESIA",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://tglmp02.akamaized.net/out/v1/b37a81eb3585471cb9c639c78edcdefa/manifest.mpd",
+  'type': "drm_key",
+  'key': {
+    '90480f571f5d410891d7add7103c1e84': 'b64f887d2480bcaea992c2f0826449a9'
+  }
+},{  
+  'name': "HBO MAX - INDONESIA",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://tglmp04.akamaized.net/out/v1/0f439c1d8a1a47fca9ae1fa92144306e/manifest.mpd",
+  'type': "drm_key",
+  'key': {
+    '32bc2ee6869144b88bee3babf202f88e': '50d3b9ec49e1570621d45822923607f7'
   }
 },{
   'name': "RCTI - INDONESIA TV",
