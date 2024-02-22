@@ -26,6 +26,54 @@ const data_channels = [
     '363b551913124d6b80074ca295b25129': 'a6c6efcab0076d572e5732fb6451d19c'
   }
 },{
+  'name': "RCTI - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+  'type': "drm_key",
+  'key': {
+    '9ba3e153ef8956d6e2b0684fcf74f58f': 'dbc28cb5c6426080f984a5b6d436bb30'
+  }
+},{
+  'name': "MNC TV - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd",
+  'type': "drm_key",
+  'key': {
+    '828e0aba9825c3546a2831e4c0c36f7f': 'f85d3dcd38981368ab3da597e97ebdcc'
+  }
+},{
+  'name': "GTV - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd",
+  'type': "drm_key",
+  'key': {
+    '88f6c7cbd793374cb5f12d7e26dcd63b': 'e82daa7c7bfb03d99327463fdbd37336'
+  }
+},{
+  'name': "TRANS 7 - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd",
+  'type': "drm_key",
+  'key': {
+    '26bd60e03bbed7819eea0b27075a1897': 'd221ba6a6ab66e3083c001d2c4a3e5c5'
+  }
+},{
+  'name': "TRANS TV - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd",
+  'type': "drm_key",
+  'key': {
+    '334950781f60a66f5e58324b70ac675d': '73caca97be8999ce9cfeb3babad8669d'
+  }
+},{
+  'name': "RTV - INDONESIA TV",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd",
+  'type': "drm_key",
+  'key': {
+    '30384ee5424eab4afdff34d7a59e0ef9': '5f3d2f2c194266ae9a28210f8976cbe0'
+  }
+},{
   'name': "ANTV - INDONESIA TV",
   'category': "CHANNEL INDONESIA TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd",
