@@ -10,7 +10,7 @@ const data_channels = [
   'link': "https://op-group1-swiftservehd-1.dens.tv/h/h207/index.m3u8",
   'type': "hls"
 },{
-  'name': "HBO MOVIE - INDONESIA TV",
+  'name': "HBO MOVIE - INDONESIA",
   'category': "CHANNEL INDONESIA TV",
   'link': "https://tglmp01.akamaized.net/out/v1/29687feb8f96427ca7348cd59c2338d9/manifest.mpd",
   'type': "drm_key",
@@ -18,15 +18,15 @@ const data_channels = [
     'a407479f074d43d798478c1212d95876': '3afb53a2643939cd7128fa7ceded533a'
   }
 },{  
-  'name': "HBO FAMILY - INDONESIA TV",
+  'name': "HBO ACTION - INDONESIA",
   'category': "CHANNEL INDONESIA TV",
-  'link': "https://tglmp03.akamaized.net/out/v1/d15476c2807d4380b0cc375a7d861752/manifest.mpd",
+  'link': "https://tglmp02.akamaized.net/out/v1/0fdcb3b643af40ceb3a5b7efa39f7b72/manifest.mpd",
   'type': "drm_key",
   'key': {
-    '363b551913124d6b80074ca295b25129': 'a6c6efcab0076d572e5732fb6451d19c'
+    '473fabdc05ac4d9b94fd34f33f73394f': '1072b1e61206c3859607984f872e549c'
   }
 },{  
-  'name': "HBO FAMILY - INDONESIA TV",
+  'name': "HBO FAMILY - INDONESIA",
   'category': "CHANNEL INDONESIA TV",
   'link': "https://tglmp03.akamaized.net/out/v1/d15476c2807d4380b0cc375a7d861752/manifest.mpd",
   'type': "drm_key",
