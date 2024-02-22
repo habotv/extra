@@ -90,14 +90,30 @@ const data_channels = [
     '94a28a75b3891e92a97efbe76f941095': "7b39cd0e318ee481b98c36a125c540fb"
   }
 },{
-  'name': "ESPN",
+  'name': "ESPN SPORTS 1",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://edge-live11-hr.cvattv.com.ar/live/c3eds/ESPN2HD/SA_Live_dash_enc/ESPN2HD.mpd",
+  'type': "drm_key",
+  'key': {
+    'e884b711ab111beb8a7ba1e7bcbdc9bf': "cb89ee3961599e3e648a5aad60895f34"
+  }
+}, {
+  'name': "ESPN SPORTS 2",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://edge-live11-hr.cvattv.com.ar/live/c6eds/ESPN2_Arg/SA_Live_dash_enc/ESPN2_Arg.mpd",
+  'type': "drm_key",
+  'key': {
+    '65a5bfa3c7a72dde60be9b0c7406c8fc': "0b40ae9f78a7bac3b57ecbf72d3c081e"
+  }
+}, {
+  'name': "ESPN SPORTS 3",
   'category': "CHANNEL SPORTS TV",
   'link': "https://edge-live11-hr.cvattv.com.ar/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd",
   'type': "drm_key",
   'key': {
     'f4c9f97e2a36feab0e5077f2b44cbc4e': "1743cd03dfe3736b2c95da91a783af38"
   }
-}, {
+}, {  
   'name': "TNT SPORTS 1",
   'category': "CHANNEL SPORTS TV",
   'link': "https://linear114-ie-dash1-prd-ak.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(gcptntsport1)/manifest_sd.mpd",
