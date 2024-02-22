@@ -113,7 +113,39 @@ const data_channels = [
   'key': {
     'f4c9f97e2a36feab0e5077f2b44cbc4e': "1743cd03dfe3736b2c95da91a783af38"
   }
-}, {  
+}, {
+  'name': "ESPN SPORTS PREMIUM",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://edge-live11-hr.cvattv.com.ar/live/c7eds/Fox_Sports_Premiun_HD/SA_Live_dash_enc/Fox_Sports_Premiun_HD.mpd",
+  'type': "drm_key",
+  'key': {
+    '4c230dbc7f6a4bfa6ad0aa73ff792374': "4186a7c2a15f590a9399886feaec4257"
+  }
+}, {
+  'name': "FOX SPORTS 1",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://edge-live11-hr.cvattv.com.ar/live/c3eds/FoxSports/SA_Live_dash_enc/FoxSports.mpd",
+  'type': "drm_key",
+  'key': {
+    'cbc2a0c7a38df0aa3333cd71841d3b0d': "aac61b730e2ac1df23f1e872e7541c1b"
+  }
+}, {
+  'name': "FOX SPORTS 2",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://edge-live11-hr.cvattv.com.ar/live/c3eds/FoxSports2HD/SA_Live_dash_enc/FoxSports2HD.mpd",
+  'type': "drm_key",
+  'key': {
+    'c98ddffc470fe449ae1a8d6492116976': "5086d370e840010232cf4532b16e197f"
+  }
+}, {
+  'name': "FOX SPORTS 3",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://edge-live11-hr.cvattv.com.ar/live/c3eds/FoxSports3HD/SA_Live_dash_enc/FoxSports3HD.mpd",
+  'type': "drm_key",
+  'key': {
+    '55b47390cf9e4997dae6dac85e057875': "fa39e855543c5d70f30600d59e5e4c1b"
+  }
+}, { 
   'name': "TNT SPORTS 1",
   'category': "CHANNEL SPORTS TV",
   'link': "https://linear114-ie-dash1-prd-ak.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(gcptntsport1)/manifest_sd.mpd",
