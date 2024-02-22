@@ -525,44 +525,60 @@ const data_channels = [
     '82f8e2a17dac44c0a18f660479349c59': "1b144f73e6fefe91cd05f850e2b589d0"
   }
 }, {
-  'name': "SKY CINEMA ACTION",
+  'name': "SKY CINEMA 24",
   'category': "CHANNEL SPORTS TV",
-  'link': 'https://linear017-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skycinemaaction)/manifest_mob.mpd',
+  'link': 'https://linear301-it-dash1-prd.selector.skycdn.it/016a/31035/FHD/skysport24/master_stereo.mpd',
   'type': "drm_key",
   'key': {
-    '0003d8b3ca2a42568a0e97db51b7ab8f': '10d2d8c97c55c1c6ece54d3f89eaa48e'
+    '003618ccd7be22b6367207ed8d64d505': '36e97f29ec5ea6126077cc040cc2ceeb'
   }
 }, {
-  'name': "SKY SPORTS CRICKET",
+  'name': "SKY SPORTS 251",
   'category': "CHANNEL SPORTS TV",
   'link': "https://linear003-gb-dash1-prd-cf.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skysportscricket)/manifest_sd.mpd",
   'type': "drm_key",
   'key': {
-    '0003f2a72d21efd159d45a3a74decd84': "df0ec40586d641f3d4728ab5fd62adc3"
+    '00368000eaecbeeafd84c05b3b8243af': "8f84185910e18ae0ca8a45004625a000"
   }
 }, {
-  'name': "SKY SPORTS F1",
+  'name': "SKY SPORTS 253",
   'category': "CHANNEL SPORTS TV",
-  'link': 'https://linear004-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_hd/Live/channel(sportsf150)/manifest_hd.mpd',
+  'link': 'https://linear311-it-dash1-prd-akp2.cdn13.skycdp.com/016a/31917/FHD/skysport251/master.mpd',
   'type': "drm_key",
   'key': {
-    '0003e68c20290ea35eec1e3bceafa5b5': "bc799e40dd3e4e3257d746ebc036c992"
+    '00365b169a077daac5081277c3fd0c28': "f68ab32a552e13509a8ee1c4d96204bc"
   }
 }, {
-  'name': "SKY SPORTS MIX",
+  'name': "SKY SPORTS FORMULA 1",
   'category': "CHANNEL SPORTS TV",
-  'link': "https://linear032-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_hd/Live/channel(sportsmix50)/manifest_hd.mpd",
+  'link': "https://linear028-gb-dash1-prd-ak.cdn.skycdp.com/100e/Content/DASH_003_720_30/Live/channel(sportsf150)/manifest_mob.mpd",
   'type': "drm_key",
   'key': {
-    '0003a6c61c2b2f7f0a9d760ac83c06d8': '7305fa96d356316f2d544bfc78a6922c'
+    '0003cbfae95b7b788879af8addd77635': 'c3510d26e94e19c65f73f0f57fa045f3'
   }
 }, {
-  'name': "SKY SPORTS GOLF",
+  'name': "SKY SPORTS MOTOGP",
   'category': "CHANNEL SPORTS TV",
-  'link': "https://linear006-gb-dash1-prd-cf.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skysportsgolf)/manifest_sd.mpd",
+  'link': "https://linear306-it-dash1-prd.selector.skycdn.it/016a/31483/FHD/skysportmotogp/master.mpd",
   'type': "drm_key",
   'key': {
-    '0003276bbe0b7f5c9c05ec201bddf545': 'a3546a8bd8d03e6f3ca48629ea45ebb8'
+    '0036ea2e908d4cc20ef08595da9ff991': '08e1ae9fa0ee4d9ec2b194c4908613ae'
+  }
+}, {
+  'name': "SKY SPORTS CALCIO",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://linear302-it-dash1-prd-ll.cdn13.skycdp.com/016a/31209/FHD/skysportseriea/master.mpd",
+  'type': "drm_key",
+  'key': {
+    '0036e5d0e88dfb087f1791da6150ced9': '0bc653d830837dceb13bd17169f0f8e2'
+  }
+}, {
+  'name': "SKY SPORTS UNO",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://linear301-it-dash1-prd-ll.cdn13.skycdp.com/016a/31023/FHD/skysportuno/master_stereo.mpd,
+  'type': "drm_key",
+  'key': {
+    '00362452ed102000ccea64c311921dc2': '02f27bd6caab7633d3083b94d3958b1c'
   }
 }, {
   'name': "NBCSN SPORTS NETWORK ",
