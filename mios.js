@@ -105,6 +105,46 @@ const data_channels = [
   'key': {
     '57d2ac9210cfbca3596cc679a01c8b29': 'd5e35c0f39c76adf24853d7ea18c71e7'
   }
+}, {
+  'name': "SPORTSTAR 1 HD",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/MNCSports-HD/sa_dash_vmx/MNCSports-HD.mpd",
+  'type': "drm_key",
+  'key': {
+    '531c6d50e3e9f9ba66446f624f492289': 'd769d9ae238bdd424f8bcdcdc9a3801f'
+  }
+}, {
+  'name': "SPORTSTAR 2 HD",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/MNCSports2-HD/sa_dash_vmx/MNCSports2-HD.mpd",
+  'type': "drm_key",
+  'key': {
+    '45fec91ce1f19b6b1f31d69dcfaaf6cd': '843e228ab109e9aa6c4822ee4ad05d7d'
+  }
+}, {
+  'name': "SPORTSTAR 3 HD",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/MNCSports3-HD/sa_dash_vmx/MNCSports3-HD.mpd",
+  'type': "drm_key",
+  'key': {
+    'fadd2720deff5925ab86df0819cd7775': 'f67ff08c7ebc779f6a6fcfc83835f65b'
+  }
+}, {
+  'name': "SPORTSTAR 4 HD",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/Sportstar4/sa_dash_vmx/Sportstar4.mpd",
+  'type': "drm_key",
+  'key': {
+    'b81b1942c65f35547ced1bff074206a5': 'a07dc4d86f51db7195f4b7e2abe9d9e8'
+  }
+}, {
+  'name': "SOCCER CHANNEL HD",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/soccerchannel-test/sa_dash_vmx/soccerchannel-test.mpd",
+  'type': "drm_key",
+  'key': {
+    '4d38060bf41b3c29df0ec950ece6b5da': '7ee9506b13480491d79b71c062ab5366'
+  }
 }, { 
   'name': "BEIN SPORTS 1 THAILAND",
   'category': "CHANNEL SPORTS TV",
