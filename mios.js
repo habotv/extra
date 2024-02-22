@@ -35,7 +35,7 @@ const data_channels = [
   }
 }, { 
   'name': "BEIN SPORTS 1 THAILAND",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0001/DASH/S0001.mpd",
   'type': "drm_key",
   'key': {
@@ -43,7 +43,7 @@ const data_channels = [
   }
 }, {
   'name': "BEIN SPORTS 2 THAILAND",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0002/DASH/S0002.mpd",
   'type': "drm_key",
   'key': {
@@ -51,7 +51,7 @@ const data_channels = [
   }
 },{
   'name': "BEIN SPORTS 3 THAILAND",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0003/DASH/S0003.mpd",
   'type': "drm_key",
   'key': {
@@ -59,7 +59,7 @@ const data_channels = [
   }
 },{
   'name': "BEIN SPORTS 4 THAILAND",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0004/DASH/S0004.mpd",
   'type': "drm_key",
   'key': {
@@ -67,7 +67,7 @@ const data_channels = [
   }
 },{
   'name': "BEIN SPORTS 5 THAILAND",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0005/DASH/S0005.mpd",
   'type': "drm_key",
   'key': {
@@ -75,7 +75,7 @@ const data_channels = [
   }
 },{
   'name': "BEIN SPORTS 6 THAILAND",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0006/DASH/S0006.mpd",
   'type': "drm_key",
   'key': {
@@ -83,7 +83,7 @@ const data_channels = [
   }
 },{
   'name': "BEIN SPORTS 7 THAILAND",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ais-s.ais-vidnt.com/ais/play/origin/live/eds/S0007/DASH/S0007.mpd",
   'type': "drm_key",
   'key': {
@@ -91,15 +91,47 @@ const data_channels = [
   }
 },{
   'name': "ESPN",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://edge-live11-hr.cvattv.com.ar/live/c3eds/ESPN3/SA_Live_dash_enc/ESPN3.mpd",
   'type': "drm_key",
   'key': {
     'f4c9f97e2a36feab0e5077f2b44cbc4e': "1743cd03dfe3736b2c95da91a783af38"
   }
 }, {
+  'name': "TNT SPORTS 1",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://linear114-ie-dash1-prd-ak.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(gcptntsport1)/manifest_sd.mpd",
+  'type': 'drm_key',
+  'key': {
+    '00079dbbb526c7cb40aec345e2b007d5': "91e2e12e61a535528d3bc19371c26ea4"
+  }
+}, {
+  'name': "TNT SPORTS 2",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://linear114-ie-dash1-prd-ak.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(gcptntsport2)/manifest_sd.mpd",
+  'type': "drm_key",
+  'key': {
+    '00097e84e48516bddc69ac1b75e23190': '99e880e73769540def6d05e3b48bb838'
+  }
+}, {
+  'name': "TNT SPORTS 3",
+  'category': "CHANNEL SPORTS TV",
+  'link': "https://linear114-ie-dash1-prd-ak.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(gcptntsport3)/manifest_sd.mpd",
+  'type': 'drm_key',
+  'key': {
+    '0007de04e20a711de10e375df407d417': "a28d98170c2f9b50f90b2f590933f685"
+  }
+}, {
+  'name': "TNT SPORTS 4",
+  'category': "CHANNEL SPORTS TV",
+  'link': 'https://linear114-ie-dash1-prd-ak.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(gcptntsport4)/manifest_sd.mpd',
+  'type': 'drm_key',
+  'key': {
+    '0009df430980c91904926a291cf321fb': '1564522f5b2d62bb5099ffb144f81e1e'
+  }
+}, {
   'name': "SSC 1",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ssc1-ak.akamaized.net/out/v1/c696e4819b55414388a1a487e8a45ca1/index.mpd",
   'type': "drm_key",
   'key': {
@@ -107,7 +139,7 @@ const data_channels = [
   }
 }, {
   'name': "SSC 2",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ssc2-ak.akamaized.net/out/v1/a16db2ec338a445a82d9c541cc9293f9/index.mpd",
   'type': "drm_key",
   'key': {
@@ -115,7 +147,7 @@ const data_channels = [
   }
 }, {
   'name': "SSC 3",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ssc3-ak.akamaized.net/out/v1/42e86125555242aaa2a12056832e7814/index.mpd",
   'type': 'drm_key',
   'key': {
@@ -123,7 +155,7 @@ const data_channels = [
   }
 }, {
   'name': "SSC 4",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ssc4-ak.akamaized.net/out/v1/5267ea5772874b0db24559d643eaad93/index.mpd",
   'type': "drm_key",
   'key': {
@@ -131,7 +163,7 @@ const data_channels = [
   }
 }, {
   'name': "SSC 5",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ssc5-ak.akamaized.net/out/v1/99289eac5a7b4319905da595afbd792b/index.mpd",
   'type': "drm_key",
   'key': {
@@ -139,7 +171,7 @@ const data_channels = [
   }
 }, {
   'name': "SSC EXTRA 1",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ssc-extra1-ak.akamaized.net/out/v1/647c58693f1d46af92bd7e69f17912cb/index.mpd",
   'type': "drm_key",
   'key': {
@@ -147,7 +179,7 @@ const data_channels = [
   }
 }, {
   'name': "SSC EXTRA 2",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ssc-extra2-ak.akamaized.net/out/v1/8b70de2b70d447ba8a7450ba90926a2d/index.mpd",
   'type': "drm_key",
   'key': {
@@ -155,7 +187,7 @@ const data_channels = [
   }
 }, {
   'name': "SSC EXTRA 3",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ssc-extra3-on-prem-cw-ak.akamaized.net/out/v1/9d373d000ab64078b131f9d4c18e3502/index.mpd",
   'type': "drm_key",
   'key': {
@@ -163,7 +195,7 @@ const data_channels = [
   }
 }, {
   'name': "SSC NEWS",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ssc-news-live-ak.akamaized.net/out/v1/ef466f43623c4bbaa3f905b566ec35ea/index.mpd",
   'type': "drm_key",
   'key': {
@@ -171,7 +203,7 @@ const data_channels = [
   }
 }, {
   'name': "UNBEATEN",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-044/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -179,7 +211,7 @@ const data_channels = [
   }
 }, {
   'name': "PLAY SPORTS 1",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-051/stream.mpd",
   'type': 'drm_key',
   'key': {
@@ -187,7 +219,7 @@ const data_channels = [
   }
 }, {
   'name': "PLAY SPORTS 2",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-052/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -195,7 +227,7 @@ const data_channels = [
   }
 }, {
   'name': "PLAY SPORTS 3",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-053/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -203,7 +235,7 @@ const data_channels = [
   }
 }, {
   'name': "NFL",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': 'https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-023/stream.mpd',
   'type': "drm_key",
   'key': {
@@ -211,7 +243,7 @@ const data_channels = [
   }
 }, {
   'name': "MLB",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': 'https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-026/stream.mpd',
   'type': "drm_key",
   'key': {
@@ -219,7 +251,7 @@ const data_channels = [
   }
 }, {
   'name': "NBA TV",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-035/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -227,7 +259,7 @@ const data_channels = [
   }
 }, {
   'name': "REDBULL TV",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-036/stream.mpd",
   'type': 'drm_key',
   'key': {
@@ -235,7 +267,7 @@ const data_channels = [
   }
 }, {
   'name': "MILAN TV",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-025/stream.mpd",
   'type': 'drm_key',
   'key': {
@@ -243,7 +275,7 @@ const data_channels = [
   }
 }, {
   'name': "DAZN F1",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-016/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -251,7 +283,7 @@ const data_channels = [
   }
 }, {
   'name': "DAZN 1 DE",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-017/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -259,7 +291,7 @@ const data_channels = [
   }
 }, {
   'name': "DAZN 2 DE",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-018/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -267,7 +299,7 @@ const data_channels = [
   }
 }, {
   'name': "DAZN 1 ES",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-037/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -275,7 +307,7 @@ const data_channels = [
   }
 }, {
   'name': "DAZN 2 ES",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-038/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -283,7 +315,7 @@ const data_channels = [
   }
 }, {
   'name': "INTER TV",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-033/stream.mpd",
   'type': 'drm_key',
   'key': {
@@ -291,7 +323,7 @@ const data_channels = [
   }
 }, {
   'name': "DAZN LA LIGA",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-043/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -299,7 +331,7 @@ const data_channels = [
   }
 }, {
   'name': "CANAL+ LIGUE 1",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-046/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -307,7 +339,7 @@ const data_channels = [
   }
 }, {
   'name': "SPORTDIGITAL",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-022/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -315,7 +347,7 @@ const data_channels = [
   }
 }, {
   'name': "ZONA DAZN",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-024/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -323,7 +355,7 @@ const data_channels = [
   }
 }, {
   'name': "ELEVEN 1 PT",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-054/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -331,7 +363,7 @@ const data_channels = [
   }
 }, {
   'name': "ELEVEN 2 PT",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': 'https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-055/stream.mpd',
   'type': "drm_key",
   'key': {
@@ -339,7 +371,7 @@ const data_channels = [
   }
 }, {
   'name': "ELEVEN 3 PT",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-056/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -347,7 +379,7 @@ const data_channels = [
   }
 }, {
   'name': "ELEVEN 4 PT",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-057/stream.mpd",
   'type': 'drm_key',
   'key': {
@@ -355,7 +387,7 @@ const data_channels = [
   }
 }, {
   'name': "ELEVEN 5 PT",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-058/stream.mpd",
   'type': 'drm_key',
   'key': {
@@ -363,7 +395,7 @@ const data_channels = [
   }
 }, {
   'name': "ELEVEN 6 PT",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-059/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -371,7 +403,7 @@ const data_channels = [
   }
 }, {
   'name': "DAZN ELEVEN PRO LEAGUE 1",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-050/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -379,7 +411,7 @@ const data_channels = [
   }
 }, {
   'name': "EUROSPORT 1 ESP",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-031/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -387,7 +419,7 @@ const data_channels = [
   }
 }, {
   'name': "EUROSPORT 2 ESP",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-032/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -395,7 +427,7 @@ const data_channels = [
   }
 }, {
   'name': "EUROSPORT 1 DE",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-027/stream.mpd",
   'type': 'drm_key',
   'key': {
@@ -403,7 +435,7 @@ const data_channels = [
   }
 }, {
   'name': "EUROSPORT 2 DE",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcf-ak-livedazn.akamaized.net/dashrdm/dazn-linear-028/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -411,7 +443,7 @@ const data_channels = [
   }
 }, {
   'name': "SKY CINEMA ACTION",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': 'https://linear017-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skycinemaaction)/manifest_mob.mpd',
   'type': "drm_key",
   'key': {
@@ -419,7 +451,7 @@ const data_channels = [
   }
 }, {
   'name': "SKY SPORTS CRICKET",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://linear003-gb-dash1-prd-cf.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skysportscricket)/manifest_sd.mpd",
   'type': "drm_key",
   'key': {
@@ -427,7 +459,7 @@ const data_channels = [
   }
 }, {
   'name': "SKY SPORTS F1",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': 'https://linear004-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_hd/Live/channel(sportsf150)/manifest_hd.mpd',
   'type': "drm_key",
   'key': {
@@ -435,7 +467,7 @@ const data_channels = [
   }
 }, {
   'name': "SKY SPORTS MIX",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://linear032-gb-dash1-prd-ll.cdn.skycdp.com/016a/Content/DASH_003_hd/Live/channel(sportsmix50)/manifest_hd.mpd",
   'type': "drm_key",
   'key': {
@@ -443,7 +475,7 @@ const data_channels = [
   }
 }, {
   'name': "SKY SPORTS GOLF",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://linear006-gb-dash1-prd-cf.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skysportsgolf)/manifest_sd.mpd",
   'type': "drm_key",
   'key': {
@@ -451,7 +483,7 @@ const data_channels = [
   }
 }, {
   'name': "USA NETWORK",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://fsly.stream.peacocktv.com/Content/CMAF_OL1-CTR-4s/Live/channel(usa-east)/master.mpd",
   'type': 'drm_key',
   'key': {
@@ -459,7 +491,7 @@ const data_channels = [
   }
 }, {
   'name': "TSN 1",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN1/manifest.mpd",
   'type': "drm_key",
   'key': {
@@ -467,7 +499,7 @@ const data_channels = [
   }
 }, {
   'name': "TSN 2",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN2/manifest.mpd",
   'type': "drm_key",
   'key': {
@@ -475,7 +507,7 @@ const data_channels = [
   }
 }, {
   'name': "TSN 3",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN3/manifest.mpd",
   'type': "drm_key",
   'key': {
@@ -483,7 +515,7 @@ const data_channels = [
   }
 }, {
   'name': "TSN 4",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN4/manifest.mpd",
   'type': "drm_key",
   'key': {
@@ -491,7 +523,7 @@ const data_channels = [
   }
 }, {
   'name': "TSN 5",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://live-ctv.video.9c9media.com/f/TSN/TSN5/manifest.mpd",
   'type': "drm_key",
   'key': {
@@ -499,7 +531,7 @@ const data_channels = [
   }
 }, {
   'name': "ARENA 1 PREMIUM",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': 'https://webtvstream.bhtelecom.ba/hls6/as_premium1.mpd',
   'type': 'drm_key',
   'key': {
@@ -507,7 +539,7 @@ const data_channels = [
   }
 }, {
   'name': "ARENA 2 PREMIUM",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': 'https://webtvstream.bhtelecom.ba/hls6/as_premium2.mpd',
   'type': 'drm_key',
   'key': {
@@ -515,7 +547,7 @@ const data_channels = [
   }
 }, {
   'name': "ARENA 3 PREMIUM",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://webtvstream.bhtelecom.ba/hls6/as_premium3.mpd",
   'type': "drm_key",
   'key': {
@@ -523,7 +555,7 @@ const data_channels = [
   }
 }, {
   'name': "ARENA SPORT 1",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://webtvstream.bhtelecom.ba/hls6/arena1.mpd",
   'type': "drm_key",
   'key': {
@@ -531,7 +563,7 @@ const data_channels = [
   }
 }, {
   'name': "ARENA SPORT 1X2",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://webtvstream.bhtelecom.ba/hls6/arena_1x2.mpd",
   'type': "drm_key",
   'key': {
@@ -539,7 +571,7 @@ const data_channels = [
   }
 }, {
   'name': "ARENA SPORT 2",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://webtvstream.bhtelecom.ba/hls6/arena2.mpd",
   'type': "drm_key",
   'key': {
@@ -547,7 +579,7 @@ const data_channels = [
   }
 }, {
   'name': "ARENA SPORT 3",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://webtvstream.bhtelecom.ba/hls6/arena3.mpd",
   'type': "drm_key",
   'key': {
@@ -555,7 +587,7 @@ const data_channels = [
   }
 }, {
   'name': "ARENA SPORT 4",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://webtvstream.bhtelecom.ba/hls6/arena4.mpd",
   'type': "drm_key",
   'key': {
@@ -563,7 +595,7 @@ const data_channels = [
   }
 }, {
   'name': "ARENA SPORT 5",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://webtvstream.bhtelecom.ba/hls6/arena5.mpd",
   'type': 'drm_key',
   'key': {
@@ -571,7 +603,7 @@ const data_channels = [
   }
 }, {
   'name': "ARENA SPORT 6",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://webtvstream.bhtelecom.ba/hls6/arena6.mpd",
   'type': "drm_key",
   'key': {
@@ -579,7 +611,7 @@ const data_channels = [
   }
 }, {
   'name': "ARENA SPORT PREMIER LEAGUE",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://webtvstream.bhtelecom.ba/hls6/premier_league.mpd",
   'type': 'drm_key',
   'key': {
@@ -587,7 +619,7 @@ const data_channels = [
   }
 }, {
   'name': "DAZN COMBAT",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': 'https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-502/stream.mpd',
   'type': "drm_key",
   'key': {
@@ -595,7 +627,7 @@ const data_channels = [
   }
 }, {
   'name': "DAZN FAST+",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-504/stream.mpd",
   'type': 'drm_key',
   'key': {
@@ -603,7 +635,7 @@ const data_channels = [
   }
 }, {
   'name': "DAZN RISE",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-501/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -611,7 +643,7 @@ const data_channels = [
   }
 }, {
   'name': "DAZN WOMENS FOOTBALL",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://dcj-ac-live.cdn.indazn.com/dash/dazn-linear-503/stream.mpd",
   'type': "drm_key",
   'key': {
@@ -619,7 +651,7 @@ const data_channels = [
   }
 }, {
   'name': "PRIMA SPORTS 1",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': 'https://ott.cyberhost.ro/sdash/LIVE$LookPlus/index.mpd/Manifest?start=LIVE&end=END&device=MPD-LIVE-PC-Widevine-HD-ENC',
   'type': 'drm_key',
   'key': {
@@ -627,7 +659,7 @@ const data_channels = [
   }
 }, {
   'name': "PRIMA SPORTS 2",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ott.cyberhost.ro/sdash/LIVE$LookTVHD/index.mpd/Manifest?start=LIVE&end=END&device=MPD-LIVE-PC-Widevine-HD-ENC",
   'type': "drm_key",
   'key': {
@@ -635,7 +667,7 @@ const data_channels = [
   }
 }, {
   'name': "PRIMA SPORTS 3",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ott1.cyberhost.ro/sdash/LIVE$LookSport3HD/index.mpd/Manifest?start=LIVE&end=END&device=MPD-LIVE-PC-Widevine-HD-ENC",
   'type': "drm_key",
   'key': {
@@ -643,7 +675,7 @@ const data_channels = [
   }
 }, {
   'name': "PRIMA SPORTS 4",
-  'category': "SPORTS TV CHANNEL",
+  'category': "CHANNEL SPORTS TV",
   'link': "https://ott.cyberhost.ro/sdash/LIVE$LookSport2HD/index.mpd/Manifest?start=LIVE&end=END&device=MPD-LIVE-PC-Widevine-HD-ENC",
   'type': "drm_key",
   'key': {
