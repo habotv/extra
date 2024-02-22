@@ -132,7 +132,7 @@ const data_channels = [
 }, {
   'name': "BERITASATU TV - INDONESIA TV",
   'category': "CHANNEL INDONESIA TV",
-  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/BeritaSatu/sa_dash_vmx/BeritaSatu.mpd",
   'type': "drm_key",
   'key': {
     'd022ff3be9391a16a8436261059806b0': 'e6dd32d6a257f900acb52a82d898bb81'
