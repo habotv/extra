@@ -194,6 +194,46 @@ const data_channels = [
     'ebe6190a3cfbbed4ec34e4d9c7a30e1e': 'd161b1f737e2aee9501149406c8abe9e'
   }
 }, {
+  'name': "TVN INDONESIA",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/tvN/sa_dash_vmx/tvN.mpd",
+  'type': "drm_key",
+  'key': {
+    '742131dbcb507c31502eb60b32be6bb8': '209f03c525bbbc9fd8652aa7a9cc5cb0'
+  }
+}, {
+  'name': "TVN MOVIES INDONESIA",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/tvNMovies/sa_dash_vmx/tvNMovies.mpd",
+  'type': "drm_key",
+  'key': {
+    '45c004003b09719751adb885d28d491f': 'fe82bc3ffe00477c833812fae74caed7'
+  }
+}, {
+  'name': "ONE MOVIES INDONESIA",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/SetOne/sa_dash_vmx/SetOne.mpd",
+  'type': "drm_key",
+  'key': {
+    '7b212a67ce3e8b056af85b890e3de811': '428a68fac3d97a5fae0f695edcee6346'
+  }
+}, {
+  'name': "CELESTIAL MOVIES",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/CelestialMovie/sa_dash_vmx/CelestialMovie.mpd",
+  'type': "drm_key",
+  'key': {
+    '13aecb26aeee22bc86920045f22d134d': '80aa44d998c7c0cc221c96d26730fe9b'
+  }
+}, {
+  'name': "CELESTIAL CLASSIC MOVIES",
+  'category': "CHANNEL INDONESIA TV",
+  'link': "https://cempedak-live-cdn.mncnow.id/live/eds/CelestialClassic/sa_dash_vmx/CelestialClassic.mpd",
+  'type': "drm_key",
+  'key': {
+    '12da619438b3748da206142216d0943b': '6958377109d34561ad20645319cec62c'
+  }
+}, {
   'name': "SPOTV 1 - SPORTS TV",
   'category': "CHANNEL SPORTS TV",
   'link': "https://cempedak-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd",
