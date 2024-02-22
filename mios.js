@@ -575,7 +575,7 @@ const data_channels = [
 }, {
   'name': "SKY SPORTS UNO",
   'category': "CHANNEL SPORTS TV",
-  'link': "https://linear301-it-dash1-prd-ll.cdn13.skycdp.com/016a/31023/FHD/skysportuno/master_stereo.mpd,
+  'link': "https://linear301-it-dash1-prd-ll.cdn13.skycdp.com/016a/31023/FHD/skysportuno/master_stereo.mpd",
   'type': "drm_key",
   'key': {
     '00362452ed102000ccea64c311921dc2': '02f27bd6caab7633d3083b94d3958b1c'
